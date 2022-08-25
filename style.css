@@ -1,0 +1,57 @@
+body{
+    margin:0px;
+    padding-top: 550px;
+    text-align: center;
+}
+.img{
+ border-radius: 50%;
+}
+#welcome{
+position:absolute;
+bottom: 0;
+background: linear-gradient(yellow 0%, green 50%, red 100%);
+display:table;
+width: 100%;
+height: 100%;
+z-index: 9;
+}
+.div{
+    display: table-cell;
+    vertical-align: middle;
+}
+.menu{
+    list-style:none ;
+    position: fixed;
+    top: 10px;
+    right: 30px;
+    cursor: pointer;
+    z-index: 10;
+    background-color: aqua;
+}
+.links{
+    padding-top: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 5px;
+    font-size: 20px;
+    display: inline;
+}
+#name{
+    font-family: 'Aboreto', cursive;
+}
+#contact_1 h3{
+    display: inline;
+}
+#contact{
+    background-color: lightgreen;
+}
+#contact a{
+    text-decoration: none;
+}
+#biography a{
+    text-decoration: none;
+}
+.links:hover{
+    font-size: 25px;
+    background-color: black !important;
+}
